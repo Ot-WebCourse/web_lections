@@ -162,7 +162,7 @@ HTML теги зазвичай використовуються в парі, н�
 ```
 Що матиме вигляд:
 
-  ![](https://raw.githubusercontent.com/Ot-WebCourse/web_lections/lections/img/table_example.png)
+  ![](https://raw.githubusercontent.com/Ot-WebCourse/web_lections/master/img/table_example.png)
 
 
 Списки

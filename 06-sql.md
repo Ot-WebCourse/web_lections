@@ -196,7 +196,7 @@ UPDATE tablename SET <[column_name1 = value1 , column_name2 = value2, ...]> [WHE
 
 Для ілюстрації вищесказаного, наведено статистику по таблиці з реального проекту:
 
-![](https://raw.githubusercontent.com/Ot-WebCourse/web_lections/lections/img/index_size.png)
+![](https://raw.githubusercontent.com/Ot-WebCourse/web_lections/master/img/index_size.png)
 
 Зведені таблиці
 --------

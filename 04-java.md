@@ -34,21 +34,21 @@
 
 Для створення нового проекту використаємо майстер «Spring Starter Project», що знаходиться в меню *File → New → Spring Starter Project*: 
 
-![Меню створення проекту](https://raw.githubusercontent.com/Ot-WebCourse/web_lections/lections/img/sts-create.png)
+![Меню створення проекту](https://raw.githubusercontent.com/Ot-WebCourse/web_lections/master/img/sts-create.png)
 
 В майстрі створення проекту можна обрати довільне ім’я проекту, групи й артефакту. Необхідно змінити тип пакування на більш підходящий для веб проектів — War (Web ARchive). Обов’язковими залежностями для проекту є: Web, Thymeleaf, який буде використовуватись для побудови HTML сторінок, H2 та JSA – для організації роботи з базою даних й Security — модуль який забезпечить аутентифікацію та обмеження прав доступу користувачів.
 
-![Налаштування проекту](https://raw.githubusercontent.com/Ot-WebCourse/web_lections/lections/img/sts-settings.png)
+![Налаштування проекту](https://raw.githubusercontent.com/Ot-WebCourse/web_lections/master/img/sts-settings.png)
 
 В результаті буде отримано згенерований проект, який матиме вигляд:
 
-![Створений проект](https://raw.githubusercontent.com/Ot-WebCourse/web_lections/lections/img/sts-newly-created.png)
+![Створений проект](https://raw.githubusercontent.com/Ot-WebCourse/web_lections/master/img/sts-newly-created.png)
 
 Згенерований файл LabsApplication.java містить однойменний головний клас LabsApplication з методом main, який використовуватиметься для запуску додатку.Однак перед запуском серверу необхідно створити сторінку, яку можна буде відобразити користувачу. В папці `src/main/resources/templates` створимо файл `index.html` з довільним HTML документом (наприклад з першої лекції). 
 
 Для того, щоб відобразити створений файл у браузері, необхідно також створити новий клас — контроллер, який буде вказувати для якого URL буде відображатись вказаний HTML-документ й надалі буде також використовуватись для отримання даних з СУБД. Для цього можна скористатись діалогом створення нового класу, що знаходиться у головному меню *File → New → Class*:
 
-![Майстер створення нового класу](https://raw.githubusercontent.com/Ot-WebCourse/web_lections/lections/img/sts-new-class.png)
+![Майстер створення нового класу](https://raw.githubusercontent.com/Ot-WebCourse/web_lections/master/img/sts-new-class.png)
 
 Зміст класу наведено нижче. В ньому створюється публічний клас `IndexController` помічений аннотацією `@Controller`, яка означає що він призначений для обробки запитів браузера. В класі є всього один публічний метод `index()` помічений анотацією `@RequestMapping("/home")`, яка вказує що даний метод буде викликатись при переході браузера на URL `http://localhost:8080/home`. Метод повертає стрічку `"index"` — назву шаблону, з папки `templates`, який необхідно відобразити користувачу (*Spring* автоматично додасть розширення .html до назви). Ні назва класу, ні назва методу, насправді ніякої ролі (окрім хіба що інформативної) не відіграють й можуть бути довільними — тільки анотації вказують бібліотеці, що даний клас оброблятиме запити користувача й які *URL* будуть оброблятись.
 
@@ -70,11 +70,11 @@
 
 Тепер можна спробувати запустити створений проект, для чого необхідно викликати контекстне меню на файлі `LabsApplication.java` й обрати пункт *Run As → Spring Boot App* або *Run As → Java Application*:
 
-![Меню запуску](https://raw.githubusercontent.com/Ot-WebCourse/web_lections/lections/img/sts-first-run.png)
+![Меню запуску](https://raw.githubusercontent.com/Ot-WebCourse/web_lections/master/img/sts-first-run.png)
 
 Тепер можна перейти в браузері на сторінку `http://localhost:8080/home`:
 
-![Результат роботи з вікном логіну](https://raw.githubusercontent.com/Ot-WebCourse/web_lections/lections/img/sts-first-run-result.png)
+![Результат роботи з вікном логіну](https://raw.githubusercontent.com/Ot-WebCourse/web_lections/master/img/sts-first-run-result.png)
 
 Однак браузер видасть діалог логіну — це відбувається тому, що при створенні проекту було обрано *Security* як одну із залежностей. *Spring* при наявності *Security* автоматично заборонить вхід всім незареєстрованим користувачам. Для того, щоб тимчасово вимкнути цю функціональність необхідно додати в `application.properties` наступне налаштування:
 
@@ -82,7 +82,7 @@
 
 Тепер можна запустити проект ще раз й побачити кінцевий результат:
 
-![Результат роботи](https://raw.githubusercontent.com/Ot-WebCourse/web_lections/lections/img/sts-final-result.png)
+![Результат роботи](https://raw.githubusercontent.com/Ot-WebCourse/web_lections/master/img/sts-final-result.png)
 
 >  Якщо при запуску виникає помилка, яка почиається з виразу: 
 >  java.net.BindException: Address already in use 
@@ -102,7 +102,7 @@
 
 Розглянемо структуру створеного додатку:
 
-![Структура папок додатку](https://raw.githubusercontent.com/Ot-WebCourse/web_lections/lections/img/directory-structure.png)
+![Структура папок додатку](https://raw.githubusercontent.com/Ot-WebCourse/web_lections/master/img/directory-structure.png)
 
 `src/main/java`
 : в даній директорії містяться весь основний код програми на мові *Java*. Всі створені `*.java` файли містяться в пакеті `labs`.
