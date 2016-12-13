@@ -106,7 +106,7 @@ HTML код для даного прикладу:
 
 Для того, щоб відправити `POST` запит існує функція [`$.post`](http://api.jquery.com/jQuery.post/), останнім аргументом є тип, даних що повертає серверна сторона (`html`, `xml`, `text`, `json` та інші):
 
-    $.post("/form.jsp", {login: 'test', password: '111'},
+    $.post("/form", {login: 'test', password: '111'},
      function( data ) {
       $( ".result" ).html( data );
     }, 'html');
@@ -114,7 +114,7 @@ HTML код для даного прикладу:
 Однак ці функції є лише скороченням для більше загальної [`$.ajax`](http://api.jquery.com/jQuery.ajax/). Дана функція приймає об’єкт, полями якого є параметри запиту (так зроблено, оскільки функція яка має більше 20 аргументів жахливо незручна для викликаючої сторони), наприклад POST запит, який поверне HTML з серверу:
 
     var xhr = $.ajax({
-      url: "script.jsp",
+      url: "script",
       type: "POST",
       data: { page : 5, max: 20 },
       dataType: "html"
