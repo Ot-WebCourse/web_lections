@@ -24,7 +24,7 @@ $( function() {
 Першим аргументом в функції обробнику події стоїть об’єкт, що містить дані про те коли й з яким елементом сталась подія. Виклик функції `evt.preventDefault()` говорить що подія далі не повинна оброблятись браузером й відповідно форма не має відправитись, це є альтернативою `return false;` в функції обробнику. Вираз `form.attr('method') || 'GET'` поверне або метод вказаний у атрибуті `method` елемента форми, або ж `GET` якщо атрибуту немає. Всі дані форми у вигляді javascript об’єкта можна отримати використовуючи функцію jQuery [`serialize()`](http://api.jquery.com/serialize/), наприклад для форми:
 
 ```html
-	<form action="action.jsp" method="POST">
+	<form action="login" method="POST">
 	    <input type="text" name="email"/>
 	    <input type="text" name="name"/>
 	    <input type="submit" name="Submit" />
