@@ -10,7 +10,6 @@
 7. [Cookies, Sessions](https://github.com/Ot-WebCourse/web_lections/blob/master/08-security.md)
 8. [Database Access](https://github.com/Ot-WebCourse/web_lections/blob/master/07-database-access.md)
 8. [Spring Security](https://github.com/Ot-WebCourse/web_lections/blob/master/08-spring-security.md)
-
 9. [Javascript](https://github.com/Ot-WebCourse/web_lections/blob/master/09-javascript.md)
 10. [Javascript OOP](https://github.com/Ot-WebCourse/web_lections/blob/master/10-js-oop.md)	 
 11. [Events](https://github.com/Ot-WebCourse/web_lections/blob/master/11-js-events.md)			
