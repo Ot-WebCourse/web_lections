@@ -14,7 +14,10 @@
 11. [Javascript OOP](https://github.com/Ot-WebCourse/web_lections/blob/master/10-js-oop.md)	 
 12. [Events](https://github.com/Ot-WebCourse/web_lections/blob/master/11-js-events.md)			
 13. [AJAX](https://github.com/Ot-WebCourse/web_lections/blob/master/12-ajax.md)				
-14. [XML JSON](https://github.com/Ot-WebCourse/web_lections/blob/master/13-json-xml.md)			
-   - [JS examples]
-    - [jQuery examples]
+14. [XML JSON](https://github.com/Ot-WebCourse/web_lections/blob/master/13-json-xml.md)	
+
+Прклади на JS та jQuery
+
+- [JS examples](https://github.com/Ot-WebCourse/js_examples/blob/master/JS_Examples.html)
+- [jQuery examples](https://github.com/Ot-WebCourse/js_examples/blob/master/jQuery_examples.html)
     
