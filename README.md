@@ -18,6 +18,6 @@
 
 Прклади на JS та jQuery
 
-- [JS examples](https://github.com/Ot-WebCourse/js_examples/blob/master/JS_Examples.html)
-- [jQuery examples](https://github.com/Ot-WebCourse/js_examples/blob/master/jQuery_examples.html)
-    
+- [JS](https://github.com/Ot-WebCourse/js_examples/blob/master/JS_Examples.html)
+- [jQuery](https://github.com/Ot-WebCourse/js_examples/blob/master/jQuery_examples.html)
+- [jQuery UI]    
