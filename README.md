@@ -16,8 +16,14 @@
 13. [AJAX](https://github.com/Ot-WebCourse/web_lections/blob/master/12-ajax.md)				
 14. [XML JSON](https://github.com/Ot-WebCourse/web_lections/blob/master/13-json-xml.md)	
 
-Прклади на JS та jQuery
+Приклади на JS та jQuery
 
 - [JS](https://github.com/Ot-WebCourse/js_examples/blob/master/JS_Examples.html)
 - [jQuery](https://github.com/Ot-WebCourse/js_examples/blob/master/jQuery_examples.html)
-- [jQuery UI]    
+- [jQuery UI]  
+
+Попередні оцінки з дисципліни за навчальний триместр 
+
+- [2КІ-13б](https://docs.google.com/spreadsheets/d/1WwzKDaHE2P8by49lxFfWVVVJvcHWIyrFfEICKvhQptc/edit?usp=sharing)
+- [1КІ-13б]
+- [1КІ-15мс]  
