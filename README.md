@@ -25,4 +25,4 @@
 Попередні оцінки з дисципліни за навчальний триместр 
 
 - [1КІ-13б](https://docs.google.com/spreadsheets/d/1UZ2Bq6D64eVoTRdThdwls6FE21_O2UQ00a6LYUZalKA/edit?usp=sharing)
-- [1КІ-15мс]  
+- [1КІ-15мс](https://docs.google.com/spreadsheets/d/1BScgYtOAI_chN5Tc-22hVObEw8F1u0YkQqKWZPffly0/edit?usp=sharing)  
