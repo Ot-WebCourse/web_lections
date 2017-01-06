@@ -21,7 +21,3 @@
 - [JS](https://github.com/Ot-WebCourse/js_examples/blob/master/JS_Examples.html)
 - [jQuery](https://github.com/Ot-WebCourse/js_examples/blob/master/jQuery_examples.html)
 - [jQuery UI]  
-
-Попередні оцінки з дисципліни за навчальний триместр 
-
-- [1КІ-15мс](https://docs.google.com/spreadsheets/d/1BScgYtOAI_chN5Tc-22hVObEw8F1u0YkQqKWZPffly0/edit?usp=sharing)  
