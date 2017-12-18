@@ -1,6 +1,6 @@
 
-Завдання з Веб-програмування(лабораторні роботи):
-[Завдання](https://docs.google.com/document/d/11T36j2QCHiqOueibAVccT77ZywfDeAqFke3MUe135Tg/pub)
+
+[Завдання з Веб-програмування (лабораторні роботи)](https://docs.google.com/document/d/11T36j2QCHiqOueibAVccT77ZywfDeAqFke3MUe135Tg/pub)
 
 Список лекцій з Веб-програмування
 
